@@ -1,0 +1,25 @@
+
+# ComfyUI Files
+main.py
+folder_paths.py
+comfy/
+custom_nodes/
+custom_nodes_backup/
+models/
+output/
+input/
+user/
+temp/
+web/
+*.txt
+*.json
+*.log
+.venv/
+__pycache__/
+.git/
+
+# Only allow the tool files
+!clean_comfyui.py
+!README.md
+!LICENSE
+!.gitignore
